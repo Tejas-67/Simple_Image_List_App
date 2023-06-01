@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Fragments.FirstFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:text="View Images"
+        app:strokeColor="@color/teal_700"
+        android:textColor="@color/teal_700"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:clipToOutline="true"
+        app:cornerRadius="15dp"
+        android:id="@+id/view_images_button"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
